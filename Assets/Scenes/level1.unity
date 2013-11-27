@@ -9228,6 +9228,7 @@ GameObject:
   - 50: {fileID: 1192670856}
   - 61: {fileID: 1192670857}
   - 114: {fileID: 1192670858}
+  - 114: {fileID: 1192670859}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -9289,7 +9290,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1192670851}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13484dca92f3ded469715dc75d34a761, type: 3}
   m_Name: 
@@ -9303,11 +9304,11 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1192670851}
-  m_Mass: .100000001
+  m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 0
-  m_FixedAngle: 1
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -9329,7 +9330,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1192670851}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef10215534fc9eb45833e2e17de774cc, type: 3}
   m_Name: 
@@ -9337,6 +9338,17 @@ MonoBehaviour:
   speed: 9.5
   axisName: Vertical
   anim: {fileID: 0}
+--- !u!114 &1192670859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1192670851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 108274a64e4742242bbbcd005eb226ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1193810176
 GameObject:
   m_ObjectHideFlags: 0
